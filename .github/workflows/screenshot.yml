@@ -18,6 +18,6 @@ jobs:
         with:
           message: "Add screenshot"
           add: "*.png"
-          force: true
+          force: false
         env:
           GITHUB_TOKEN: ${{ secrets.ACTION_TEST_TOKEN }}
